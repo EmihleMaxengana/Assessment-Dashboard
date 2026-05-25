@@ -9,7 +9,7 @@ A modern, responsive React dashboard for managing legal matters and tasks. Built
 - **Priority Filtering**: Filter matters by priority level (All, High, Medium, Low)
 - **Dark Mode**: Toggle between light and dark themes for comfortable viewing
 - **Persistent Storage**: All filters, search queries, and preferences are saved to local storage
-- **Loading States**: Skeleton loaders and loading indicators for better UX
+- **Loading States**: loading indicators for better UX
 - **Responsive Design**: Fully responsive layout that works on desktop and mobile devices
 - **Empty States**: Helpful messaging when no matters match the current filters
 
@@ -20,7 +20,6 @@ src/
 ├── components/
 │   ├── EmptyState.jsx          # Empty state component
 │   ├── Header.jsx              # Main header with dark mode toggle
-│   ├── LoadingSkeleton.jsx      # Skeleton loader component
 │   ├── LoadingState.jsx         # Loading state component
 │   ├── MatterCard.jsx           # Individual matter card component
 │   ├── MatterList.jsx           # List of matters
